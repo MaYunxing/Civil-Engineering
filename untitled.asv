@@ -78,11 +78,7 @@ function edit1_Callback(hObject, eventdata, handles)
 % hObject    handle to edit1 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
-input = str2num(get(hObject,'String'));
-in(isempty(input))
-set(hObject,'String','0')
-end
-guidata(hObject,handles);
+
 % Hints: get(hObject,'String') returns contents of edit1 as text
 %        str2double(get(hObject,'String')) returns contents of edit1 as a double
 
@@ -105,11 +101,7 @@ function edit2_Callback(hObject, eventdata, handles)
 % hObject    handle to edit2 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
-input = str2num(get(hObject,'String'));
-in(isempty(input))
-set(hObject,'String','0')
-end
-guidata(hObject,handles);
+
 % Hints: get(hObject,'String') returns contents of edit2 as text
 %        str2double(get(hObject,'String')) returns contents of edit2 as a double
 
@@ -132,11 +124,7 @@ function edit7_Callback(hObject, eventdata, handles)
 % hObject    handle to edit7 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
-input = str2num(get(hObject,'String'));
-in(isempty(input))
-set(hObject,'String','0')
-end
-guidata(hObject,handles);
+
 % Hints: get(hObject,'String') returns contents of edit7 as text
 %        str2double(get(hObject,'String')) returns contents of edit7 as a double
 
@@ -159,11 +147,7 @@ function edit8_Callback(hObject, eventdata, handles)
 % hObject    handle to edit8 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
-input = str2num(get(hObject,'String'));
-in(isempty(input))
-set(hObject,'String','0')
-end
-guidata(hObject,handles);
+
 % Hints: get(hObject,'String') returns contents of edit8 as text
 %        str2double(get(hObject,'String')) returns contents of edit8 as a double
 
@@ -196,11 +180,7 @@ function edit9_CreateFcn(hObject, eventdata, handles)
 % hObject    handle to edit9 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
-input = str2num(get(hObject,'String'));
-in(isempty(input))
-set(hObject,'String','0')
-end
-guidata(hObject,handles);
+
 % Hint: edit controls usually have a white background on Windows.
 %       See ISPC and COMPUTER.
 if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
@@ -223,11 +203,7 @@ function edit10_CreateFcn(hObject, eventdata, handles)
 % hObject    handle to edit10 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
-input = str2num(get(hObject,'String'));
-in(isempty(input))
-set(hObject,'String','0')
-end
-guidata(hObject,handles);
+
 % Hint: edit controls usually have a white background on Windows.
 %       See ISPC and COMPUTER.
 if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
